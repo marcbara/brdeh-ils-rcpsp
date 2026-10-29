@@ -1,0 +1,10 @@
+benchmark,variant,budget,n_instances,n_seeds,mean_gap_pct,best_of_10_gap_pct,note
+j30,V0,5000,480,10,0.19518038404273724,0.06847473826967596,Read from 50k trajectories; not an independent short-cap campaign.
+j30,V5,5000,480,10,0.12110103240643669,0.017447718031533877,Read from 50k trajectories; not an independent short-cap campaign.
+j30,V6,5000,480,10,0.1422433904638393,0.020138754470471622,Read from 50k trajectories; not an independent short-cap campaign.
+j60,V0,5000,480,10,11.956109242427523,11.538562346032961,Read from 50k trajectories; not an independent short-cap campaign.
+j60,V5,5000,480,10,11.538644080905913,11.12558509039319,Read from 50k trajectories; not an independent short-cap campaign.
+j60,V6,5000,480,10,11.425217364807384,10.953133354571154,Read from 50k trajectories; not an independent short-cap campaign.
+j120,V0,5000,600,10,35.31854816508549,34.43793666248828,Read from 50k trajectories; not an independent short-cap campaign.
+j120,V5,5000,600,10,34.11150166005078,33.07450579996762,Read from 50k trajectories; not an independent short-cap campaign.
+j120,V6,5000,600,10,33.92014970586578,32.82839804823146,Read from 50k trajectories; not an independent short-cap campaign.

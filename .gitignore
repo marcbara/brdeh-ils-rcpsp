@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+experiments/runs/
+results/smoke/*.tmp
+results/
+.venv/
+.julia-depot/
+.codex/
+.agents/
+.env
+.env.*
+data/final50k/*.jsonl
+data/final50k/preserved-local-manifest.json

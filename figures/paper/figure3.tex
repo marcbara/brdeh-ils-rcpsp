@@ -1,0 +1,22 @@
+\documentclass[border=0pt]{standalone}
+\usepackage{pgfplots}
+\usepgfplotslibrary{groupplots}
+\pgfplotsset{compat=1.16}
+\begin{document}
+\setlength{\linewidth}{455.244pt}
+\begin{tikzpicture}
+\begin{groupplot}[group style={group size=2 by 1, horizontal sep=1.6cm}, width=0.47\linewidth, height=5cm,
+   xmode=log, xtick={5000,10000,25000,50000}, xticklabels={5k,10k,25k,50k},
+   tick label style={font=\small}, label style={font=\small}, title style={font=\small}, xlabel={schedules}]
+\nextgroupplot[title={J60 (48 instances)}, ylabel={mean gap to $\mathrm{LB}_0$ (\%)}]
+\addplot[thick, red!70!black, mark=*] table[x=B,y=j60br]{data/long_budget.csv};
+\addplot[thick, blue!70!black, mark=square*] table[x=B,y=j60grd]{data/long_budget.csv};
+\addplot[thick, gray, mark=triangle*] table[x=B,y=j60uni]{data/long_budget.csv};
+\nextgroupplot[title={J120 (60 instances)}, legend style={font=\footnotesize, draw=none, at={(0.98,0.98)}, anchor=north east}]
+\addplot[thick, red!70!black, mark=*] table[x=B,y=j120br]{data/long_budget.csv};
+\addplot[thick, blue!70!black, mark=square*] table[x=B,y=j120grd]{data/long_budget.csv};
+\addplot[thick, gray, mark=triangle*] table[x=B,y=j120uni]{data/long_budget.csv};
+\legend{biased, greedy, uniform}
+\end{groupplot}
+\end{tikzpicture}
+\end{document}

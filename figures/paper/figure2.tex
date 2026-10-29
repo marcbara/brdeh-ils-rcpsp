@@ -1,0 +1,17 @@
+\documentclass[border=0pt]{standalone}
+\usepackage{pgfplots}
+\usepgfplotslibrary{groupplots}
+\pgfplotsset{compat=1.16}
+\begin{document}
+\setlength{\linewidth}{455.244pt}
+\begin{tikzpicture}
+\begin{axis}[width=0.85\linewidth, height=4.6cm, xmode=log, xmin=3, xmax=5000, ymin=67.5, ymax=71.5,
+  xlabel={schedules (log scale)}, ylabel={best makespan}, legend style={font=\footnotesize, draw=none, at={(0.98,0.97)}, anchor=north east},
+  tick label style={font=\small}, label style={font=\small}, ytick={68,69,70,71}]
+\addplot[const plot, thick, gray] coordinates {(39,70) (57,69) (5000,69)};
+\addplot[const plot, very thick, red!70!black] coordinates {(39,70) (57,69) (855,68) (5000,68)};
+\addplot[dashed, black] coordinates {(3,68) (5000,68)};
+\legend{13-rule BR-DEH (V1), V1 + local search (V2), optimum}
+\end{axis}
+\end{tikzpicture}
+\end{document}

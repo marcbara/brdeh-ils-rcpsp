@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="360" viewBox="0 0 700 360">
+<style>text{font-family:sans-serif;font-size:12px}</style>
+<text x="20" y="22">Archived mean gap at 5,000 schedules (%)</text>
+<text x="100" y="50">J30</text>
+<rect x="100.00" y="328.56" width="16" height="1.44" fill="#555555"/><text transform="translate(113.00,350) rotate(-60)">V0</text>
+<rect x="122.00" y="328.74" width="16" height="1.26" fill="#777777"/><text transform="translate(135.00,350) rotate(-60)">V1</text>
+<rect x="144.00" y="328.96" width="16" height="1.04" fill="#4c78a8"/><text transform="translate(157.00,350) rotate(-60)">V2</text>
+<rect x="166.00" y="328.94" width="16" height="1.06" fill="#f58518"/><text transform="translate(179.00,350) rotate(-60)">V3</text>
+<rect x="188.00" y="329.15" width="16" height="0.85" fill="#54a24b"/><text transform="translate(201.00,350) rotate(-60)">V4</text>
+<rect x="210.00" y="329.11" width="16" height="0.89" fill="#e45756"/><text transform="translate(223.00,350) rotate(-60)">V5</text>
+<rect x="232.00" y="328.95" width="16" height="1.05" fill="#b279a2"/><text transform="translate(245.00,350) rotate(-60)">V6</text>
+<text x="290" y="50">J60</text>
+<rect x="290.00" y="241.98" width="16" height="88.02" fill="#555555"/><text transform="translate(303.00,350) rotate(-60)">V0</text>
+<rect x="312.00" y="242.26" width="16" height="87.74" fill="#777777"/><text transform="translate(325.00,350) rotate(-60)">V1</text>
+<rect x="334.00" y="244.01" width="16" height="85.99" fill="#4c78a8"/><text transform="translate(347.00,350) rotate(-60)">V2</text>
+<rect x="356.00" y="242.68" width="16" height="87.32" fill="#f58518"/><text transform="translate(369.00,350) rotate(-60)">V3</text>
+<rect x="378.00" y="244.31" width="16" height="85.69" fill="#54a24b"/><text transform="translate(391.00,350) rotate(-60)">V4</text>
+<rect x="400.00" y="245.06" width="16" height="84.94" fill="#e45756"/><text transform="translate(413.00,350) rotate(-60)">V5</text>
+<rect x="422.00" y="245.89" width="16" height="84.11" fill="#b279a2"/><text transform="translate(435.00,350) rotate(-60)">V6</text>
+<text x="480" y="50">J120</text>
+<rect x="480.00" y="70.00" width="16" height="260.00" fill="#555555"/><text transform="translate(493.00,350) rotate(-60)">V0</text>
+<rect x="502.00" y="70.90" width="16" height="259.10" fill="#777777"/><text transform="translate(515.00,350) rotate(-60)">V1</text>
+<rect x="524.00" y="75.49" width="16" height="254.51" fill="#4c78a8"/><text transform="translate(537.00,350) rotate(-60)">V2</text>
+<rect x="546.00" y="72.99" width="16" height="257.01" fill="#f58518"/><text transform="translate(559.00,350) rotate(-60)">V3</text>
+<rect x="568.00" y="77.54" width="16" height="252.46" fill="#54a24b"/><text transform="translate(581.00,350) rotate(-60)">V4</text>
+<rect x="590.00" y="78.89" width="16" height="251.11" fill="#e45756"/><text transform="translate(603.00,350) rotate(-60)">V5</text>
+<rect x="612.00" y="80.29" width="16" height="249.71" fill="#b279a2"/><text transform="translate(625.00,350) rotate(-60)">V6</text>
+</svg>

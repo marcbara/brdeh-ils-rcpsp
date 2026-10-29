@@ -1,0 +1,26 @@
+\documentclass[border=0pt]{standalone}
+\usepackage{pgfplots}
+\usepgfplotslibrary{groupplots}
+\pgfplotsset{compat=1.16}
+\begin{document}
+\setlength{\linewidth}{455.244pt}
+\begin{tikzpicture}
+\begin{groupplot}[group style={group size=2 by 1, horizontal sep=1.5cm}, width=0.48\linewidth, height=6cm,
+   xmode=log, xmin=100, xmax=5000, xtick={100,200,500,1000,2000,5000}, xticklabels={100,200,500,1k,2k,5k},
+   tick label style={font=\small}, label style={font=\small}, title style={font=\small}, xlabel={schedules}]
+\nextgroupplot[title={J60 (480 instances, 10 seeds)}, ylabel={mean gap to $\mathrm{LB}_0$ (\%)}]
+\addplot[thick, gray] table[x=B,y=V0]{data/profile_j60.csv};
+\addplot[thick, blue!60] table[x=B,y=V1]{data/profile_j60.csv};
+\addplot[thick, teal, dashed] table[x=B,y=V4]{data/profile_j60.csv};
+\addplot[thick, orange!80!black] table[x=B,y=V5]{data/profile_j60.csv};
+\addplot[very thick, red!70!black] table[x=B,y=V6]{data/profile_j60.csv};
+\nextgroupplot[title={J120 (600 instances, 10 seeds)}, legend style={font=\footnotesize, draw=none, at={(0.98,0.98)}, anchor=north east}]
+\addplot[thick, gray] table[x=B,y=V0]{data/profile_j120.csv};
+\addplot[thick, blue!60] table[x=B,y=V1]{data/profile_j120.csv};
+\addplot[thick, teal, dashed] table[x=B,y=V4]{data/profile_j120.csv};
+\addplot[thick, orange!80!black] table[x=B,y=V5]{data/profile_j120.csv};
+\addplot[very thick, red!70!black] table[x=B,y=V6]{data/profile_j120.csv};
+\legend{V0 (2024), V1 (13-rule), V4 (+dir.+LS), V5 (2026), V6 (+ILS)}
+\end{groupplot}
+\end{tikzpicture}
+\end{document}

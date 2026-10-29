@@ -1,0 +1,7 @@
+# Data, provenance, and checksums
+
+The final-50k numerical input is bundled in compressed form: `data/final50k/*.jsonl.gz` plus its manifest. `analysis/final50k/analyse_final50k.py` validates every PSPLIB input hash listed in the manifest and regenerates seven CSV outputs from 46,800 quality records (1,560 instances × 10 seeds × V0/V5/V6). The uncompressed `.jsonl` files are local working duplicates and are not release files.
+
+The complete J30/J60/J120 PSPLIB input set and `j30_optimal.csv` are included as frozen reproducibility inputs. Per-file SHA-256 values are in the bundled `data/final50k/preserved-local-manifest.json.gz`, expanded by the reproduction command. The benchmark source is the [PSPLIB project page](https://www.om-db.wi.tum.de/psplib/). Original benchmark attribution is retained; this artifact does not relicense PSPLIB.
+
+`archived/data/main.json`, `evidence.json`, `ils_pairs.json`, and their CSV neighbors are frozen numerical extractions of the older 5k and ablation campaigns. All 1,405 original numerical files named by their source-hash maps are bundled in `data/historical/historical-inputs.tar.gz`. The original extractors in `scripts/historical/` regenerate those snapshots from trajectories and original campaign summaries; `scripts/reproduce_historical.py` compares their numerical content. `archived/SOURCE.sha256` and the source-hash maps preserve extraction provenance.

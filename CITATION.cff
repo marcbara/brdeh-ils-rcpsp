@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this artifact, please cite the associated BR-DEH+ILS journal manuscript."
+title: "BR-DEH+ILS reproducibility artifact"
+authors:
+  - family-names: Bara
+    given-names: Marc
+  - family-names: Escoto
+    given-names: Marc
+  - family-names: Juan
+    given-names: Angel A.
+  - family-names: Panadero
+    given-names: Javier

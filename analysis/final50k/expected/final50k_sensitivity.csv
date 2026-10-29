@@ -1,0 +1,10 @@
+benchmark,contrast,n_instances,n_seeds,mean_paired_gap_diff_pp,ci95_low_pp,ci95_high_pp,scope
+j30,V6-V0,480,10,-0.0015051291294940667,-0.024554415725548385,0.0226236727043279,"descriptive sensitivity; excludes J60/J120 members _1,_2; no new confirmatory test"
+j30,V6-V5,480,10,0.02936570690741606,0.010641910021006468,0.04962634972078856,"descriptive sensitivity; excludes J60/J120 members _1,_2; no new confirmatory test"
+j30,V5-V0,480,10,-0.030870836036910123,-0.051370522701053134,-0.012900088265617612,"descriptive sensitivity; excludes J60/J120 members _1,_2; no new confirmatory test"
+j60,V6-V0,384,10,-0.5911511293425732,-0.7437953732783551,-0.44714343273005785,"descriptive sensitivity; excludes J60/J120 members _1,_2; no new confirmatory test"
+j60,V6-V5,384,10,-0.2535309866020852,-0.33213147159757667,-0.18059120064006537,"descriptive sensitivity; excludes J60/J120 members _1,_2; no new confirmatory test"
+j60,V5-V0,384,10,-0.33762014274048796,-0.4380936273151039,-0.24445352076830595,"descriptive sensitivity; excludes J60/J120 members _1,_2; no new confirmatory test"
+j120,V6-V0,480,10,-2.0557124805367653,-2.291261641658662,-1.824274530047034,"descriptive sensitivity; excludes J60/J120 members _1,_2; no new confirmatory test"
+j120,V6-V5,480,10,-0.8304270180356396,-0.918003109935419,-0.7435062894665357,"descriptive sensitivity; excludes J60/J120 members _1,_2; no new confirmatory test"
+j120,V5-V0,480,10,-1.2252854625011258,-1.402744709749463,-1.055077573737873,"descriptive sensitivity; excludes J60/J120 members _1,_2; no new confirmatory test"
