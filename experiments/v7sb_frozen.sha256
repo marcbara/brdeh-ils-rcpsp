@@ -1,0 +1,12 @@
+# V7sb congelado 2026-10-30T16:03:39+01:00
+# brazo: V7sb = arranque w11 (11 pesos LFT/HWRU, ambas direcciones, 66 schedules) + ILS con peso uniforme por perturbacion
+# test: semillas 1-10, J30 todas, J60/J120 instancias _3.._10, 50000 schedules; comparacion con V6 archivado (data/final50k)
+0c8f208cb1dee61f2b0474cdf0f91196de8c6da0e386925461a1c1baf6b97bb9 *experiments/v7_weighted.jl
+9f8d4656fffe5b85082918231b9edb2b439b080d61e58abf143673099313fc90 *experiments/v7_driver.jl
+cbc6f3a2a3aaa565fab42b149fa0090d8151525ef72561e89894fa000d5a1e87 *experiments/escoto_hybrid_policies_90f8ab1.jl
+fe3f9ca639f85562fe1e0303799ebbfb2482c533efd4b2c713f91ed89ec3b69f *experiments/extensions.jl
+e20d831bacac9acd9d12797bfd266bd06d7b93023b5ce34b3c1a4634ddafb08c *harness/solvers/brdeh_bridge.jl
+d164b45a44de8aa0e697be700d3ee0936a3d3586123322023b8f7a56964efb26 *solvers/br-deh/src/heuristic.jl
+3e59f2f6b91f6195d50712ff83dd865a733cd4105df906b01ba54f458c5f0207 *solvers/br-deh/experiments/process.jl
+1065f83f4ab6c6c1823bf2a0cc9fd1d1ee6a92705d331db81e7b367b780097f5 *solvers/br-deh/experiments/klein_policies.jl
+20a50368ee06031e6fc481cdb0e1aff4233f8c1739ec95c3790c1c2bf0707954 *solvers/br-deh/experiments/pathrelinking.jl
