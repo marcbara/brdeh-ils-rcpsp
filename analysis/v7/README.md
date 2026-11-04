@@ -59,7 +59,7 @@ Reading of the results:
 - **The ILS sampling:** on its own (V7b) it does not improve on V6 significantly anywhere.
 - **The 20 % switch:** removing it (V7sbk1) changes nothing. No V7sbk1 − V7sb difference is significant, and all of them are below 0.02 pp.
 
-[`report.html`](report.html) is a self-contained page with figures that explains the method and these results. Its confidence intervals come from an earlier version of the bootstrap. They differ from `v7_contrasts.csv` in the second decimal, but the means, p-values and conclusions are the same.
+[`report.html`](report.html) is a self-contained page with figures that explains the method and these results. It is written in Spanish, and its numbers are those of `expected/`.
 
 ## Files
 
